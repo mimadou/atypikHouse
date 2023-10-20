@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e3205eba3f164cbdd47fddeeacf3a18",
+    "content-hash": "e9fc85af5faeb5c1991f086706c1b6ad",
     "packages": [
         {
             "name": "api-platform/core",
@@ -2276,6 +2276,71 @@
                 "source": "https://github.com/kreait/clock-php/tree/1.2"
             },
             "time": "2022-04-20T14:14:35+00:00"
+        },
+        {
+            "name": "kreait/firebase-bundle",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kreait/firebase-bundle.git",
+                "reference": "8157334028f51e11df18827e243f981a89620345"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kreait/firebase-bundle/zipball/8157334028f51e11df18827e243f981a89620345",
+                "reference": "8157334028f51e11df18827e243f981a89620345",
+                "shasum": ""
+            },
+            "require": {
+                "kreait/firebase-php": "^5.25.0",
+                "php": "^7.4|^8.0",
+                "symfony/cache": "^5.4|^6.0",
+                "symfony/config": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.10"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Kreait\\Firebase\\Symfony\\Bundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jérôme Gamez",
+                    "homepage": "https://github.com/jeromegamez"
+                }
+            ],
+            "description": "Symfony Bundle for the Firebase Admin SDK",
+            "homepage": "https://github.com/kreait/firebase-bundle",
+            "keywords": [
+                "api",
+                "bundle",
+                "database",
+                "firebase",
+                "google",
+                "sdk",
+                "symfony",
+                "symfony-bundle"
+            ],
+            "support": {
+                "issues": "https://github.com/kreait/firebase-bundle/issues",
+                "source": "https://github.com/kreait/firebase-bundle/tree/3.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/jeromegamez",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-04T13:24:32+00:00"
         },
         {
             "name": "kreait/firebase-php",
